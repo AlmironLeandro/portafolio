@@ -1,15 +1,14 @@
-
 <div class="wrapper ">
     <div class="text-center ">
-        <h1 class="title">Skills & experiencie</h1>
+        <h1 class="title">Habilidades | tecnologias</h1>
         <hr>
     </div>
-    <div class="skills " >
+    <div class="skills ">
         <div class="skill-item" *ngFor="let itemSkillObj of itemSkill">
-            <span class="icon-item" [innerHTML]="itemSkillObj.icon"></span>
-            <div class="progress   " style="width: 100%;">
+            <span class="icon-item animate__animated animate__fadeInUp " [innerHTML]="itemSkillObj.icon"></span>
+            <div class="progress animate__animated animate__zoomIn  " style="width: 100%;">
                 <div class="progress-bar" role="progressbar" aria-label="Example with label"
-                    [ngStyle]="{'width':itemSkillObj.porcent}"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    [ngStyle]="{'width':itemSkillObj.porcent}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                     {{itemSkillObj.porcent}}</div>
             </div>
         </div>
