@@ -1,0 +1,53 @@
+.wrapper {
+    padding: 1rem;
+
+
+}
+
+.title {
+    font-size: 3rem;
+}
+
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-title {
+    padding: 1rem 0;
+}
+
+.description {
+    color: #ffffffdb;
+    font-family: 'IBM', sans-serif;
+    letter-spacing: 1.5px;
+
+}
+
+.pre-title {
+    padding: 1rem 0;
+    color: #ffffffdb;
+    font-family: 'IBM', sans-serif;
+}
+
+
+.links {
+    .block {
+        height: 8rem;
+        padding: .15rem;
+        display: block;
+
+        .block-in {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            font-size: 2rem;
+            background-color: var(--color-3);
+        }
+    }
+}
