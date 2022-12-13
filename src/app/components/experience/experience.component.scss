@@ -1,0 +1,51 @@
+
+
+.container-right {
+    background-color: var(--color-3);
+    text-align: right;
+    border-right: 2px solid var(--color-2);
+    font-family: 'IMB';
+
+    p {
+        text-align: end;
+        margin-right: 1rem;
+        font-size: 18px;
+    }
+
+    .paragraph {
+        justify-content: end;
+        display: flex;
+    }
+
+    h1 {
+        margin-right: 1rem;
+        color: var(--color-2);
+        text-decoration: underline;
+    }
+
+
+    h3,
+    h5 {
+        margin-right: 2rem;
+    }
+
+
+}
+
+.container-left {
+    font-family: 'IMB';
+    background-color: var(--color-3);
+    border-left: 2px solid var(--color-2);
+
+    h1 {
+        margin-left: 1rem;
+        color: var(--color-2);
+        text-decoration: underline;
+        width: 100%;
+    }
+
+    h3,
+    h5 {
+        margin-left: 1rem;
+    }
+}
