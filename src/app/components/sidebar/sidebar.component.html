@@ -22,13 +22,24 @@
         <div class="block col-12 col-lg-4" *ngFor="let linkObj of links let i= index;">
             <a [href]="linkObj.link" target="_blank">
                 <div class="block-in animate__animated animate__fadeInUp  animation-{{25+(i*5)}}">
-                    <span  [innerHTML]="linkObj.icon" ></span>
+                    <span [innerHTML]="linkObj.icon"></span>
                 </div>
             </a>
         </div>
     </div>
-    <div class="cv animate__animated animate__fadeInUp  animation-20 ">
+    <!-- Button trigger modal -->
+    <div class="cv animate__animated animate__fadeInUp  animation-20 " data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
         <h3>Ver curriculum</h3>
     </div>
     <hr>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="width:100%;height:100%;">
+            <div class="modal-content" style="width:100%;height:100%;">
+                <iframe class="pdf" src="assets/curriculum_Leandro_Almiron.pdf" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
 </div>

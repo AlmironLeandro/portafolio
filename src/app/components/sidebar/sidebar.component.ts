@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+
 //@ts-ignore
 import Typewriter from 't-writer.js'
 
@@ -13,6 +14,7 @@ interface LinkModel {
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit, AfterViewInit {
+
   @ViewChild('asTitle') asTitle!: ElementRef;
   links: Array<LinkModel> = [
     {
