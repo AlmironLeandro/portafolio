@@ -7,9 +7,13 @@
 
     <div class="section-2">
         <ul class="list-menu">
-            <li class="item-menu" *ngFor="let item of [1,1,1]; let i = index">
-                <span class="item-number">{{i}}.</span>
-                <span class="link">LINK</span>
+            <li class="item-menu">
+                <span class="item-number">
+                    <button type="button" *ngIf="!isDarkTheme" (click)="switchTheme()"
+                        class="btn btn-light">Light</button>
+                    <button type="button" *ngIf="isDarkTheme" (click)="switchTheme()"
+                        class="btn btn-dark">Dark</button></span>
+                <!-- <span class="link">LINK</span> -->
             </li>
         </ul>
     </div>

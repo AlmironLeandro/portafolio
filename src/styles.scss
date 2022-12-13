@@ -1,11 +1,26 @@
-
-
 /* You can add global styles to this file, and also import other style files */
+
+.light-theme {
+    --color-1: #4361EE;
+    color: white;
+
+
+}
+
+.dark-theme {
+    --color-1: rgba(0, 0, 0, 0.932);
+    --color-2: rgba(0, 0, 0, 0.658);
+    --color-3: rgba(111, 111, 112, 0.432);
+    --color-4: grey;
+    color: #c0b9b9;
+}
+
 :root {
     --color-1: #4361EE;
     // --color-1: #4895EF;
     --color-2: #B5179E;
     --color-3: #5745ef36;
+    --color-4: white;
 }
 
 html,

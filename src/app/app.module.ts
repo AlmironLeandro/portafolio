@@ -8,13 +8,14 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { WorksComponent } from './components/works/works.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SidebarComponent,
     WorksComponent,
-    ExperienceComponent
+    ExperienceComponent,
   ],
   imports: [
     BrowserModule,
